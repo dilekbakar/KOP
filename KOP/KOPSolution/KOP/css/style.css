@@ -1,0 +1,115 @@
+﻿@import url('style.css');
+.style-table {
+    border: 1px thin antiquewhite;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color:rgba(150, 150, 150, 1);
+}
+    .style-table td, th, td {
+        border: 1px solid antiquewhite;
+        padding: 10px;
+      
+    }
+
+
+body {
+    background-image: url(kutuphane2.jpg);
+    color:antiquewhite;
+
+
+}
+
+.anaMenu {
+    width: 100px;
+    height: 51px;
+    position:center;
+    right: 0;
+    bottom: 7px;
+}
+
+    .anaMenu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .anaMenu > ul {
+        width: 630px;
+        height: 51px;
+    }
+
+    .anaMenu ul li {
+        float: left;
+        height: 51px;
+        position: relative;
+    }
+
+        .anaMenu ul li a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            text-decoration: none;
+            display: block;
+            height: 51px;
+            line-height: 50px;
+            padding: 0 12px;
+        }
+
+        .anaMenu ul li:hover a {
+            color: #fff;
+            background: rgba(16,52,72,0.8);
+        }
+
+    .anaMenu ul ul li a {
+        font-size: 12px;
+    }
+
+    .anaMenu > ul li > ul {
+        width: 180px;
+        position: absolute;
+        left: 0;
+        top: 51px;
+        background: #103448;
+    }
+
+    .anaMenu ul li ul li {
+        width: 180px;
+        height: auto;
+    }
+
+        .anaMenu ul li ul li a {
+            height: auto;
+            line-height: 20px;
+            padding: 6px 12px;
+        }
+
+    .anaMenu > ul li > ul li:hover a {
+        background: #06202e;
+    }
+
+    .anaMenu > ul li > ul li > ul {
+        width: 180px;
+        position: absolute;
+        left: 180px;
+        top: 0;
+        background: #06202e;
+    }
+
+        .anaMenu > ul li > ul li > ul li:hover a {
+            background: #041721;
+        }
+
+        .anaMenu > ul li > ul li > ul li > ul li:hover a {
+            background: #020e15;
+        }
+
+    .anaMenu ul li > ul {
+        display: none;
+    }
+
+    .anaMenu ul li:hover > ul {
+        display: block;
+    }
+ 
